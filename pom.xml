@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>JavaQemu</groupId>
     <artifactId>JavaQemu</artifactId>
-    <version>0.2.0a9pre4-SNAPSHOT</version>
+    <version>0.2.0a9-SNAPSHOT</version>
     <name>JavaQemu</name>
     <description>JavaQemu is a GUI Front End for QEMU, written in Java. </description>
     <build>
@@ -59,7 +59,7 @@
             <dependency>
                 <groupId>com.thoughtworks.xstream</groupId>
                 <artifactId>xstream</artifactId>
-                <version>1.4.10</version>
+                <version>1.4.11</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
