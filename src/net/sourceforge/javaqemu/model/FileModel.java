@@ -1352,7 +1352,7 @@ public class FileModel {
     }
 
     public String getRamSize() {
-        return ramSize;
+        return JavaQemuUtils.removeDupChars(ramSize, ".");
     }
 
     public void setRamSize(String ramSize) {

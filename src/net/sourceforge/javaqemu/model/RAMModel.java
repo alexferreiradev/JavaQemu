@@ -20,6 +20,7 @@ public class RAMModel extends OptionsControl {
     }
 
     public void setOption(String option) {
+    	option = JavaQemuUtils.removeDupChars(option, ".");
         super.setOption(option, OptionsEnumModel.RAMSIZE.getValor());
         this.myfile.getMymodel().setRamSize(option);
     }
